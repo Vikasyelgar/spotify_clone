@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.sidebar h2 {
+    color: whitesmoke;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.signup {
+    background-color: black;
+    color: white;
+}
+
+.signup:hover {
+    color: black;
+    background-color: white;
+    border-color: #1ed760;
+}
+
+.login:hover {
+    font-size: larger;
+}
+
+.albums {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px; 
+}
+
+.album-card {
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+}
+
+.album-card img {
+    border-radius: 4000px;
+    height: 108px;
+    width: 123px;
+}
+
+.album-card h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.album-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* Footer styles */
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #7a25c9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    flex: 2;
+    text-align: left;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+.footer-content h5 {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+}
+
+.signup-button {
+    flex: 1;
+    text-align: right;
+}
+
+.signup-button button {
+    background-color: white; 
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: 150px; 
+    white-space: nowrap; 
+}
+
+.signup-button button:hover {
+    font-size: larger;
+}
+
+
+.extra-info {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: 40px 0;
+    clear: both; 
+}
+
+.info-column {
+    width: 20%;
+}
+
+.info-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.info-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-column ul li {
+    margin: 5px 0;
+}
+
+.info-column ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.info-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.globe-button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-flex; 
+    align-items: center; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+}
+
+.globe-button i {
+    margin-right: 8px; 
+}
+
+.globe-button:hover {
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:hover{
+        cursor: pointer;
+        text-decoration: underline;
+}
+
+.album-card h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

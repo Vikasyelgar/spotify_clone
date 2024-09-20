@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Spotify</h2>
+            <ul>
+                <li><i class="fas fa-book"></i> Your Library <i class="fa-solid fa-plus"
+                        style="position: relative; left: 50px;"></i></li>
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-search"></i> Search</li>
+            </ul>
+            <button class="globe-button">
+                <i class="fas fa-globe"></i> English
+            </button>
+            <ul>
+                <li>Discover Weekly</li>
+                <li>Release Radar</li>
+                <li>Daily Mix 1</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <h1>
+                    <>
+                </h1>
+                <div class="auth-buttons">
+                    <a href="signup.html">
+                        <button class="btn signup">Sign Up</button>
+                    </a>
+                    <a href="login.html" onclick="redirectToLogin()">
+                        <button class="btn login">Login</button>
+                    </a>                    
+                </div>
+            </div>
+            <h1>Popular Artists</h1>
+            <div class="albums">
+
+                <div class="album-card">
+                    <img src="Images/pritam.jpg" alt="Album 1">
+                    <h3>Pritam</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="album-card">
+                    <img src="Images/arjit.jpg" alt="Album 2">
+                    <h3>Arjit Singh</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="album-card">
+                    <img src="Images/rahman.jpg" alt="Album 3">
+                    <h3>A.R.Rahman</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="album-card">
+                    <img src="Images/sachin.jpg" alt="Album 4">
+                    <h3>Sachin-Jigar</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="album-card">
+                    <img src="Images/anirudh.jpg" alt="Album 5">
+                    <h3>Anirudh Ravichender</h3>
+                    <p>Artist </p>
+                </div>
+                <div class="album-card">
+                    <img src="Images/vishal.jpg" alt="Album 6">
+                    <h3>Vishal Mishra</h3>
+                    <p>Artist </p>
+                </div>
+                <br>
+                <h1>Popular Albums</h1>
+                <div class="albums">
+
+                    <div class="album-card">
+                        <img src="Images/aashiqui2.jpg" alt="Album 1">
+                        <h3>Aashiqui 2</h3>
+                        <p>Artist </p>
+                    </div>
+                    <div class="album-card">
+                        <img src="Images/memory.jpg" alt="Album 2">
+                        <h3>Making Memories</h3>
+                        <p>Artist </p>
+                    </div>
+                    <div class="album-card">
+                        <img src="Images/moosetape.jpg" alt="Album 3">
+                        <h3>Moosetape</h3>
+                        <p>Artist </p>
+                    </div>
+                    <div class="album-card">
+                        <img src="Images/raja.jpg" alt="Album 4">
+                        <h3>Ek tha Raja</h3>
+                        <p>Artist </p>
+                    </div>
+                    <div class="album-card">
+                        <img src="Images/animal.jpg" alt="Album 5">
+                        <h3>Animal</h3>
+                        <p>Artist </p>
+                    </div>
+                    <div class="album-card">
+                        <img src="Images/jawani.jpg" alt="Album 6">
+                        <h3>Yeh Jawani Yeh Deewani</h3>
+                        <p>Artist </p>
+                    </div>
+                    <br>
+                    <h1>Popular Radio</h1>
+                    <div class="albums">
+
+                        <div class="album-card">
+                            <img src="Images/arjitRadio.jpg" alt="Album 1">
+                            <h3>Aashiqui 2</h3>
+                            <p>Artist </p>
+                        </div>
+                        <div class="album-card">
+                            <img src="Images/balaso.jpg" alt="Album 2">
+                            <h3>Arjit Singh</h3>
+                            <p>Artist </p>
+                        </div>
+                        <div class="album-card">
+                            <img src="Images/kishor.jpg" alt="Album 3">
+                            <h3>A.R.Rahman</h3>
+                            <p>Artist </p>
+                        </div>
+                        <div class="album-card">
+                            <img src="Images/arRadio.jpg" alt="Album 4">
+                            <h3>Sachin-Jigar</h3>
+                            <p>Artist </p>
+                        </div>
+                        <div class="album-card">
+                            <img src="Images/diljit.jpg" alt="Album 5">
+                            <h3>Anirudh Ravichender</h3>
+                            <p>Artist </p>
+                        </div>
+                        <div class="album-card">
+                            <img src="Images/shreya.jpg" alt="Album 6">
+                            <h3>Vishal Mishra</h3>
+                            <p>Artist </p>
+                        </div>
+                        <br>
+                        <h1>Featured Charts</h1>
+                        <div class="albums">
+
+                            <div class="album-card">
+                                <img src="Images/global.png" alt="Album 1">
+                                <h3>Aashiqui 2</h3>
+                                <p>Artist </p>
+                            </div>
+                            <div class="album-card">
+                                <img src="Images/usa.png" alt="Album 2">
+                                <h3>Arjit Singh</h3>
+                                <p>Artist </p>
+                            </div>
+                            <div class="album-card">
+                                <img src="Images/topglobal.jpg" alt="Album 3">
+                                <h3>A.R.Rahman</h3>
+                                <p>Artist </p>
+                            </div>
+                            <div class="album-card">
+                                <img src="Images/topusa.jpg" alt="Album 4">
+                                <h3>Sachin-Jigar</h3>
+                                <p>Artist </p>
+                            </div>
+                            <div class="album-card">
+                                <img src="Images/viral.jpg" alt="Album 5">
+                                <h3>Anirudh Ravichender</h3>
+                                <p>Artist </p>
+                            </div>
+                            <div class="album-card">
+                                <img src="Images/viralUsa.jpg" alt="Album 6">
+                                <h3>Vishal Mishra</h3>
+                                <p>Artist </p>
+                            </div>
+                            <br>
+                            <h1>Spotify Playlists</h1>
+                            <div class="albums">
+
+                                <div class="album-card">
+                                    <img src="Images/chillout.jpg" alt="Album 1">
+                                    <h3>Aashiqui 2</h3>
+                                    <p>Artist </p>
+                                </div>
+                                <div class="album-card">
+                                    <img src="Images/allOut.jpg" alt="Album 2">
+                                    <h3>Arjit Singh</h3>
+                                    <p>Artist </p>
+                                </div>
+                                <div class="album-card">
+                                    <img src="Images/lofi.jpg" alt="Album 3">
+                                    <h3>A.R.Rahman</h3>
+                                    <p>Artist </p>
+                                </div>
+                                <div class="album-card">
+                                    <img src="Images/rnb.png" alt="Album 4">
+                                    <h3>Sachin-Jigar</h3>
+                                    <p>Artist </p>
+                                </div>
+                                <div class="album-card">
+                                    <img src="Images/marrow.jpg" alt="Album 5">
+                                    <h3>Anirudh Ravichender</h3>
+                                    <p>Artist </p>
+                                </div>
+                                <div class="album-card">
+                                    <img src="Images/jazz.jpg" alt="Album 6">
+                                    <h3>Vishal Mishra</h3>
+                                    <p>Artist </p>
+                                </div>
+                                <br>
+                                <h1>Trending Episodes</h1>
+                                <div class="albums">
+
+                                    <div class="album-card">
+                                        <img src="Images/balaji.jpg" alt="Album 1">
+                                        <h3>Aashiqui 2</h3>
+                                        <p>Artist </p>
+                                    </div>
+                                    <div class="album-card">
+                                        <img src="Images/rotten.jpg" alt="Album 2">
+                                        <h3>Arjit Singh</h3>
+                                        <p>Artist </p>
+                                    </div>
+                                    <div class="album-card">
+                                        <img src="Images/death.jpg" alt="Album 3">
+                                        <h3>A.R.Rahman</h3>
+                                        <p>Artist </p>
+                                    </div>
+                                    <div class="album-card">
+                                        <img src="Images/death.jpg" alt="Album 4">
+                                        <h3>Sachin-Jigar</h3>
+                                        <p>Artist </p>
+                                    </div>
+                                    <div class="album-card">
+                                        <img src="Images/mahabharta.jpg" alt="Album 5">
+                                        <h3>Anirudh Ravichender</h3>
+                                        <p>Artist </p>
+                                    </div>
+                                    <div class="album-card">
+                                        <img src="Images/ghalib.jpg" alt="Album 6">
+                                        <h3>Vishal Mishra</h3>
+                                        <p>Artist </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br><br><br><br><br>
+
+                        <!-- ////  -->
+                        <div class="extra-info">
+                            <div class="info-column">
+                                <h3>Company</h3>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">For the Record</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="info-column">
+                                <h3>Communities</h3>
+                                <ul>
+                                    <li><a href="#">For Artists</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Advertising</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="info-column">
+                                <h3>Useful Links</h3>
+                                <ul>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Free Mobile App</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="info-column">
+                                <h3>Spotify Plans</h3>
+                                <ul>
+                                    <li><a href="#">Premium Individual</a></li>
+                                    <li><a href="#">Premium Duo</a></li>
+                                    <li><a href="#">Premium Family</a></li>
+                                    <li><a href="#">Premium Student</a></li>
+                                    <li><a href="#">Spotify Free</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="icons-footer">
+                            <ul><i class="fa-brands fa-instagram"></i></ul>
+                            <ul><i class="fa-brands fa-twitter"></i></ul>
+                            <ul><i class="fa-brands fa-facebook"></i></ul>
+                        </div>
+
+                        <br>
+                        <hr style="width: 100%; height: 2px; background-color: #333; border: none; margin: 20px 0;">
+                        <br> <br> <br>
+                        <i class="fa-solid fa-copyright"></i> 2024 Spotify AB
+
+                        <!-- Footer -->
+                        <div class="footer">
+                            <div class="current-song">
+                                <p>Preview of Spotify</p>
+                                <h5>Sign up to get unlimited songs and podcasts with occasional ads. No credit card
+                                    needed.</h5>
+                            </div>
+                            <div class="signup-button">
+                                <a href="signup.html">
+                                    <button onclick="redirectToSignUp()"><b>Sign up free</b></button>
+                            </a>
+                            </div>
+                        </div>
+                        <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 140px;
+    background-color: #0f1d14; /* Spotify green background */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .container i {
+    font-size: 15px;
+    margin-bottom: 20px;
+} */
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container button, .container input {
+    padding: 12px; /* Same padding for buttons and inputs */
+    width: 250px; /* Same width for buttons and inputs */
+    border-radius: 30px; /* Rounded edges */
+    border: none;
+    margin: 10px 0; /* Same margin for consistency */
+    text-align: center;
+    font-size: 14px;
+}
+
+.container button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container button i {
+    margin-right: 8px;
+}
+
+.container input {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid white;
+    width: 80%;
+    margin: 20px 0;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <i class="fa-brands fa-spotify"></i>
+        <h1>Login to Spotify</h1> <br>
+        <button><i class="fa-brands fa-google"></i> Continue with Google</button>
+        <button><i class="fa-brands fa-facebook"></i> Continue with Facebook</button>
+        <button><i class="fa-brands fa-apple"></i> Continue with Apple</button>
+        <button>Continue with phone number</button> 
+        <hr>
+        Email or Username <br>
+        <input type="text" placeholder="Email or username"> <br>
+        Password <br>
+        <input type="password" placeholder="Password"> <br>
+        <button>Log In</button> <br><br>
+        <a href="#">Forgot your Password?</a> <br><br>
+        Don't have an account? <a href="signup.html">Sign up for Spotify</a>
+    </div>
+</body>
+</html>

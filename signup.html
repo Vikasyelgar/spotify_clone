@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
+            padding: 20px;
+        }
+
+        .container i {
+            color: whitesmoke;
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .container h1, .container h3 {
+            color: whitesmoke;
+            margin: 10px 0;
+        }
+
+        .container input {
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid #ccc;
+            width: 280px; 
+            margin-bottom: 10px;
+            background-color: #222;
+            color: white;
+        }
+
+        .container button {
+            padding: 10px;
+            width: 300px; 
+            border-radius: 12px;
+            background-color: rgb(94, 235, 94);
+            border: none;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .buttons button {
+            background-color: transparent;
+            border: 1px solid #ccc;
+            color: white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin: 5px 0;
+            width: 300px;
+        }
+
+        .buttons i {
+            margin-right: 8px;
+        }
+
+        .buttons button:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        a {
+            color: whitesmoke;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fa-brands fa-spotify"></i>
+        <h1>Sign up to <br> Start Listening</h1>
+        <h3>Email Address</h3>
+        <form action="">
+            <input type="text" placeholder="name@domain.com" required> <br>
+            <a href="">Use phone number instead</a> <br> <br>
+            <button type="submit">Next</button> 
+        </form>
+        <div>OR</div>
+        <div class="buttons">
+            <button> <i class="fa-brands fa-google"></i>Sign Up with Google</button>
+            <button> <i class="fa-brands fa-facebook"></i>Sign Up with Facebook</button>
+            <button> <i class="fa-brands fa-apple"></i>Sign Up with Apple</button>
+        </div>
+        <h3>Already have an account? <a href="login.html">Login Here</a></h3> <br>
+    </div>
+</body>
+</html>
